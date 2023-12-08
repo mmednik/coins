@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #161626;
+  color: #ffffff;
+}
+:root {
+  --primary-color: #FF00C7;
+  --secondary-color: #00E0FF;
+  --accent-color: #ffffff;
+  --shadow-color: #E8E8E8;
+}
+
+button.primary {
+  padding: 10px;
+  background: var(--primary-color);
+  border-radius: 8px;
+}
